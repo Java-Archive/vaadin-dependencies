@@ -67,21 +67,6 @@
         </exclusions>
         <!--<scope>test</scope>-->
       </dependency>
-      <!--<dependency>-->
-        <!--<groupId>org.rapidpm</groupId>-->
-        <!--<artifactId>testbench-ng-m-framework-v10</artifactId>-->
-        <!--<version>00.07.07-RPM</version>-->
-      <!--</dependency>-->
-      <!--<dependency>-->
-        <!--<groupId>org.rapidpm</groupId>-->
-        <!--<artifactId>testbench-ng-m-pageobject-vaadin-v10-oss</artifactId>-->
-        <!--<version>00.07.07-RPM</version>-->
-      <!--</dependency>-->
-      <!--<dependency>-->
-        <!--<groupId>org.rapidpm</groupId>-->
-        <!--<artifactId>testbench-ng-m-pageobject-vaadin-v10-tb</artifactId>-->
-        <!--<version>00.07.07-RPM</version>-->
-      <!--</dependency>-->
     </dependencies>
   </dependencyManagement>
 

@@ -39,20 +39,25 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <testcontainers.version>1.10.2</testcontainers.version>
-    <selenium.version>3.14.0</selenium.version>
-    <!--<selenium.version>3.4.0</selenium.version>-->
+    <testcontainers.version>1.10.5</testcontainers.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>net.vergien.bau</groupId>
-        <artifactId>bean-auto-utils</artifactId>
-        <version>0.0.8</version>
-        <optional>true</optional>
+        <groupId>org.rapidpm</groupId>
+        <artifactId>rapidpm-selenium-webdriver-management-bom</artifactId>
+        <version>${rapidpm-selenium-webdriver-management-bom.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
-
+      <dependency>
+        <groupId>org.rapidpm</groupId>
+        <artifactId>rapidpm-junit5-ext-servlet-container-bom</artifactId>
+        <version>${rapidpm-junit5-ext-servlet-container-bom.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
       <!--Testcontainers-->
       <dependency>
         <groupId>org.testcontainers</groupId>
@@ -63,28 +68,6 @@
         <groupId>org.testcontainers</groupId>
         <artifactId>testcontainers</artifactId>
         <version>${testcontainers.version}</version>
-      </dependency>
-
-      <!--Selenium -->
-      <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-api</artifactId>
-        <version>${selenium.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>${selenium.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-server</artifactId>
-        <version>${selenium.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-remote-driver</artifactId>
-        <version>${selenium.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
