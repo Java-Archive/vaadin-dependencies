@@ -53,6 +53,11 @@
       </dependency>
       <dependency>
         <groupId>org.rapidpm</groupId>
+        <artifactId>rapidpm-selenium-webdriver-management-impl</artifactId>
+        <version>${rapidpm-selenium-webdriver-management-bom.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.rapidpm</groupId>
         <artifactId>rapidpm-junit5-ext-servlet-container-bom</artifactId>
         <version>${rapidpm-junit5-ext-servlet-container-bom.version}</version>
         <type>pom</type>

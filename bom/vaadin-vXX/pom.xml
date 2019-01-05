@@ -10,7 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>rapidpm-vaadin-dependencies-bom-vXX</artifactId>
-
+  <packaging>pom</packaging>
   <properties>
 
   </properties>
