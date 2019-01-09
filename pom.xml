@@ -29,7 +29,7 @@
 
   <artifactId>rapidpm-vaadin-dependencies</artifactId>
   <packaging>pom</packaging>
-  <version>01.00.01-RPM-SNAPSHOT</version>
+  <version>01.00.01-RPM</version>
 
 
   <inceptionYear>2017</inceptionYear>
@@ -93,13 +93,14 @@
     <vaadin-vXX.version>12.0.3</vaadin-vXX.version>
     <vaadin-testbench-vXX.version>6.0.1</vaadin-testbench-vXX.version>
 
-
     <!--Change this one in BOM´s too!!!!-->
-    <rapidpm-dependencies.version>04.00.11-RPM</rapidpm-dependencies.version>
     <rapidpm-selenium-webdriver-management-bom.version>01.00.00-RPM</rapidpm-selenium-webdriver-management-bom.version>
     <rapidpm-junit5-ext-servlet-container-bom.version>01.00.02-RPM</rapidpm-junit5-ext-servlet-container-bom.version>
 
     <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
+
+    <meecrowave.version>1.2.4</meecrowave.version>
+
   </properties>
 
   <repositories>
@@ -123,30 +124,6 @@
 
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <executions>
-          <execution>
-            <phase>package</phase>
-            <goals>
-              <!--<goal>jar</goal> do not define it here again !!-->
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <!--<plugin>-->
-        <!--<groupId>org.apache.maven.plugins</groupId>-->
-        <!--<artifactId>maven-source-plugin</artifactId>-->
-        <!--<executions>-->
-          <!--<execution>-->
-            <!--<goals>-->
-              <!--<goal>jar</goal>-->
-              <!--<goal>test-jar</goal>-->
-            <!--</goals>-->
-          <!--</execution>-->
-        <!--</executions>-->
-      <!--</plugin>-->
-      <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0-M3</version>
         <configuration>
@@ -161,13 +138,6 @@
             <!--<excludeTags>slow</excludeTags>-->
           </properties>
         </configuration>
-        <!--<dependencies>-->
-          <!--<dependency>-->
-            <!--<groupId>org.junit.jupiter</groupId>-->
-            <!--<artifactId>junit-jupiter-engine</artifactId>-->
-            <!--<version>${junit.jupiter.version}</version>-->
-          <!--</dependency>-->
-        <!--</dependencies>-->
       </plugin>
     </plugins>
   </build>
