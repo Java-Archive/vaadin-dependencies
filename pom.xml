@@ -24,12 +24,12 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.00.11-RPM</version>
+    <version>04.00.12-RPM</version>
   </parent>
 
   <artifactId>rapidpm-vaadin-dependencies</artifactId>
   <packaging>pom</packaging>
-  <version>01.00.02-RPM-SNAPSHOT</version>
+  <version>01.00.03-RPM</version>
 
 
   <inceptionYear>2017</inceptionYear>
@@ -84,22 +84,22 @@
 
     <webdriverextensions-maven-plugin.version>3.1.3</webdriverextensions-maven-plugin.version>
 
-    <vaadin-v08.version>8.6.3</vaadin-v08.version>
+    <vaadin-v08.version>8.6.4</vaadin-v08.version>
     <vaadin-testbench-v08.version>5.2.0</vaadin-testbench-v08.version>
 
-    <vaadin-v10.version>10.0.9</vaadin-v10.version>
+    <vaadin-v10.version>10.0.10</vaadin-v10.version>
     <vaadin-testbench-v10.version>6.0.1</vaadin-testbench-v10.version>
 
-    <vaadin-vXX.version>12.0.3</vaadin-vXX.version>
+    <vaadin-vXX.version>12.0.4</vaadin-vXX.version>
     <vaadin-testbench-vXX.version>6.0.1</vaadin-testbench-vXX.version>
 
     <!--Change this one in BOM´s too!!!!-->
-    <rapidpm-selenium-webdriver-management-bom.version>01.00.00-RPM</rapidpm-selenium-webdriver-management-bom.version>
-    <rapidpm-junit5-ext-servlet-container-bom.version>01.00.02-RPM</rapidpm-junit5-ext-servlet-container-bom.version>
+    <rapidpm-selenium-webdriver-management-bom.version>01.00.01-RPM</rapidpm-selenium-webdriver-management-bom.version>
+    <rapidpm-junit5-ext-servlet-container-bom.version>01.00.03-RPM</rapidpm-junit5-ext-servlet-container-bom.version>
 
     <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
 
-    <meecrowave.version>1.2.4</meecrowave.version>
+    <meecrowave.version>1.2.5</meecrowave.version>
 
   </properties>
 
