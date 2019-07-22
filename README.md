@@ -1,2 +1,6 @@
+
 # vaadin-dependencies
-Common Vaadin Dependencies for V8 / V10 and Vxx projects
+This project is now at: 
+[https://github.com/RapidPM/rapidpm-dependencies/tree/develop/vaadin-dependencies](https://github.com/RapidPM/rapidpm-dependencies/tree/develop/vaadin-dependencies)
+
+
